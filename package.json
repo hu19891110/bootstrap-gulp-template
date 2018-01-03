@@ -10,6 +10,7 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "bootstrap": "^3.3.7",
+    "browser-sync": "^2.23.2",
     "browserify-shim": "^3.8.12",
     "del": "^2.2.1",
     "gulp": "^3.9.1",
@@ -42,6 +43,6 @@
   },
   "browserify-shim": {
     "jquery": "global:jQuery",
-    "bootstrap":"global:bootstrap"
+    "bootstrap": "global:bootstrap"
   }
 }
